@@ -1,121 +1,115 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: 1인출판 프로젝트
+    text: ZZOM
+    button: Tesll Me More
     buttonlink: "#services"
 
 services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "무슨 일을 하나요?"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "눈에 띄진 않지만<br> 괜찮은 책을 찾습니다"
+        desc: "미처 발견되지 않은 보석 같은 책을 찾아 기획을 합니다. 누가 봐도 좋아보이는 책은 선인세가 비싸거든요."
+        icon: fas fa-search #find more at https://fontawesome.com/icons
+      - title: "적게 팔릴지라도<br> 재미있는 책을 만듭니다"
+        desc: "내가 보고 싶고 만들고 싶고 마침 제작비도 있다면 만들어봅니다. 돈 떨어지면 다른 출판사의 번역을 받아 돈을 모읍니다."
+        icon: fas fa-book 
+      - title: "잘 만들진 못하지만<br>책을 만든 과정을 공유합니다"
+        desc: "훌륭한 방법은 아니더라도 책을 만들면서 시행착오한 경험을 나눕니다. 보다가 답답하면 누가 그렇게 하는 것 아니라고 알려주겠지요."
+        icon: fab fa-youtube
 
 portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "어떤 책을 만들었나요?"
     section: portfolio
     closebutton: "Close Project"
     
 
 timeline:
     title: "About" 
-    text: "Lorem ipsum timeline"
+    text: "어떤 일이 있었나요?"
     section: timeline
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "번역을 하다가"
+        year: "2009-현재"
+        desc: "어쩌다가 번역을 시작해서 십여권의 책을 냈습니다."
         image: assets/img/timeline/1.jpg
         alt: 
         align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "갑자기 책이 만들어보고 싶다"
+        year: "2020"
+        desc: "번역만 하다보니 다른 공정도 해보고 싶었습니다."
         image: assets/img/timeline/2.jpg
         alt: 
         align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "1인출판사 ZZOM 사업자 등록"
+        year: "2020"
+        desc: "월급쟁이 20년만에 CEO가 되었습니다."
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-        #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+        alt: 
+        align: left       
+      - title: "첫 번째 위기"
+        year: "2020"
+        desc: "테슬라 주식이 곤두박질치면서 모아둔 제작비가 날아갔습니다."
         image: assets/img/timeline/4.jpg
         alt: 
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "도와주세요!"
 
 about:
     title: "About Us"
     text: "our story"
     section: about
 
-clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+# clients:
+#     section: clients
+#     max-height: 100px
+#     horizontal-scrolling: "" #"yes/no"
+#     list:
+#       - title: "envato"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/envato.jpg
+#       - title: "designmodo"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/designmodo.jpg
+#       - title: "themeforest"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/themeforest.jpg
+#       - title: "Creative Market"
+#         url: https://github.com/raviriley/agency-jekyll-theme
+#         logo: assets/img/clients/creative-market.jpg
     
 team:
     title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    text: "시분할 다중 역할 팀원을 소개합니다."
+    subtext: 무엇하나 제대로 하는 것은 없지만 <br>각자(?) 하고 싶은 일을 맡아 제멋대로 하고 있습니다.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "신상재"
+        role: "최고잡무책임자"
+        image: assets/img/team/storm-trooper.jpg
         social:
-          - url: https://twitter.com
+          - url: https://twitter.com/codelabor
             icon: fab fa-twitter
-          - url: https://facebook.com
+          - url: https://www.facebook.com/sangjae.shin
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+      - name: "신상재"
+        role: "기획자"
+        image: assets/img/team/storm-trooper.jpg
         social:
-          - url: https://twitter.com
+          - url: https://twitter.com/codelabor
             icon: fab fa-twitter
-          - url: https://facebook.com
+          - url: https://www.facebook.com/sangjae.shin
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+      - name: "신상재"
+        role: "번역자"
+        image: assets/img/team/storm-trooper.jpg
         social:
-          - url: https://twitter.com
+          - url: https://twitter.com/codelabor
             icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://www.facebook.com/sangjae.shin
+            icon: fab fa-facebook-f            
           
 contact:
     title: "Contact Us"
